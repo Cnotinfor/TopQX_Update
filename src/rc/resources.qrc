@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="download.png">ark2.png</file>
+        <file alias="close.png">button_cancel.png</file>
+        <file alias="info.png">help.png</file>
+        <file alias="internet.png">internet.png</file>
+        <file alias="start.png">player_play.png</file>
+        <file alias="check.png">reload.png</file>
+        <file>en.qm</file>
+        <file>pt.qm</file>
+    </qresource>
+</RCC>

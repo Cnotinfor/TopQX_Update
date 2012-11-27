@@ -1,3 +1,14 @@
+sdk
+tmp
+lib
+debug
+release
+*.user
+Makefile*
+*.pdb
+*.~ml
+*-build-desktop*/
+
 # C++ objects and libs
 
 *.slo

@@ -1,0 +1,17 @@
+#ifndef UPDATEMANAGERGLOBAL_H
+#define UPDATEMANAGERGLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef SHARED_LIB
+
+#ifdef UPDATEMANAGER_LIB
+# define UPDATEMANAGER_EXPORT Q_DECL_EXPORT
+#else
+# define UPDATEMANAGER_EXPORT Q_DECL_IMPORT
+#endif
+#else
+#define UPDATEMANAGER_EXPORT
+#endif
+
+#endif // UPDATEMANAGERGLOBAL_H
